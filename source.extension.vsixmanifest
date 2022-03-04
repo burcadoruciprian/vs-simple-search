@@ -6,7 +6,6 @@
         <Description xml:space="preserve">This simple extension allows you to web search the highlighted text. The results are displayed in the default browser.</Description>
         <MoreInfo>https://github.com/burcadoruciprian/vs-simple-search</MoreInfo>
         <License>LICENSE.txt</License>
-        <GettingStartedGuide>README.txt</GettingStartedGuide>
         <ReleaseNotes>CHANGELOG.txt</ReleaseNotes>
         <Icon>Resources\search.png</Icon>
         <Preview>true</Preview>
