@@ -8,7 +8,8 @@
         <License>LICENSE.txt</License>
         <GettingStartedGuide>README.txt</GettingStartedGuide>
         <ReleaseNotes>CHANGELOG.txt</ReleaseNotes>
-        <Icon>img\search.png</Icon>
+        <Icon>Resources\search.png</Icon>
+        <Preview>true</Preview>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
