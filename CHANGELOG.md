@@ -1,1 +1,0 @@
-Detailed release notes are available [here](https://github.com/burcadoruciprian/vscode-simple-search/releases).
