@@ -9,4 +9,4 @@ This simple extension allows users to search for the highlighted text. The resul
 
 If you run into any problems, please log an issue on [GitHub](https://github.com/burcadoruciprian/vs-simple-search/issues).
 
-![Simple search](resources/search.gif)
+![Simple search](Resources/search.gif)
