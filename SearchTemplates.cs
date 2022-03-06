@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace SimpleSearch
 {
-  internal static class Constants
+  internal static class SearchTemplates
   {
     public const string DefaultQueryTemplate = "https://www.google.com/search?q=%SELECTION%";
+    public enum Engines
+    {
+      Google,
+      Bing
+    }
   }
 }

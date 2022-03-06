@@ -67,6 +67,14 @@ namespace SimpleSearch
       }
     }
 
+    private SimpleSearchPackage Package
+    {
+      get
+      {
+        return (SimpleSearchPackage)this.package;
+      }
+    }
+
     /// <summary>
     /// Initializes the singleton instance of the command.
     /// </summary>
@@ -103,7 +111,7 @@ namespace SimpleSearch
       if (string.IsNullOrEmpty(text))
         return;
 
-      string url = Constants.DefaultQueryTemplate;
+      string url = Package.QueryTemplate;
       url = url.Replace("%SELECTION%", HttpUtility.UrlEncode(text));
       Process.Start(url);
     }

@@ -26,6 +26,8 @@ namespace SimpleSearch
   [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
   [Guid(PackageGuidString)]
   [ProvideMenuResource("Menus.ctmenu", 1)]
+  [ProvideOptionPage(typeof(SimpleSearchOptionsPage),
+    "Simple Search", "General", 0, 0, true)]
   public sealed class SimpleSearchPackage : AsyncPackage
   {
     #region Package Members
@@ -45,6 +47,15 @@ namespace SimpleSearch
       // Do any initialization that requires the UI thread after switching to the UI thread.
       await this.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
       await SearchCommand.InitializeAsync(this);
+    }
+
+    public string QueryTemplate
+    {
+      get
+      {
+        SimpleSearchOptionsPage page = (SimpleSearchOptionsPage)GetDialogPage(typeof(SimpleSearchOptionsPage));
+        return page.QueryTemplate;
+      }
     }
 
     #endregion
