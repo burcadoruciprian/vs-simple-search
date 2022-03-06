@@ -9,3 +9,9 @@ Changelog of Simple Search extension
 ### Features
 
 * Editor context menu option for googling the selected text
+
+## v1.1
+
+### Features
+
+* Add support for editing the search query template in [Tools]->[Options] page

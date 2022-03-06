@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="SimpleSearch.bb112829-a92c-472d-a2fc-0269408f5ac5" Version="1.0" Language="en-US" Publisher="Ciprian Burca" />
+        <Identity Id="SimpleSearch.bb112829-a92c-472d-a2fc-0269408f5ac5" Version="1.1" Language="en-US" Publisher="Ciprian Burca" />
         <DisplayName>Simple Search</DisplayName>
         <Description xml:space="preserve">This simple extension allows you to web search the highlighted text. The results are displayed in the default browser.</Description>
         <MoreInfo>https://github.com/burcadoruciprian/vs-simple-search</MoreInfo>
         <License>LICENSE.txt</License>
         <ReleaseNotes>CHANGELOG.txt</ReleaseNotes>
         <Icon>Resources\search.png</Icon>
-        <Preview>true</Preview>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">

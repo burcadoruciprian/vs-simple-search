@@ -5,7 +5,7 @@ namespace SimpleSearch
 {
   internal class SimpleSearchOptionsPage : DialogPage
   {
-    private string queryTemplate = SearchTemplates.DefaultQueryTemplate;
+    private string queryTemplate = SearchTemplates.Default;
 
     [Category("Options")]
     [DisplayName("Query Template")]

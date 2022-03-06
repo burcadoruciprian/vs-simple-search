@@ -8,11 +8,6 @@ namespace SimpleSearch
 {
   internal static class SearchTemplates
   {
-    public const string DefaultQueryTemplate = "https://www.google.com/search?q=%SELECTION%";
-    public enum Engines
-    {
-      Google,
-      Bing
-    }
+    public const string Default = "https://www.google.com/search?q=%SELECTION%";
   }
 }
