@@ -48,7 +48,9 @@
     <Compile Include="SearchTemplates.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearchCommand.cs" />
-    <Compile Include="SimpleSearchOptionsPage.cs" />
+    <Compile Include="SimpleSearchOptionsPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="SimpleSearchPackage.cs" />
   </ItemGroup>
   <ItemGroup>

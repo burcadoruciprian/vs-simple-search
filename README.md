@@ -1,4 +1,4 @@
-# Simple Search for Visual Studio Code
+# Simple Search for Visual Studio
 
 Perform a web search of selected text using a handy context menu entry.
 
