@@ -8,7 +8,7 @@ This simple extension allows users to search for the highlighted text. The resul
 
 ## Configuration
 
-The search engine can be customized by editing the **Query Template** under [ Tools ] -> [ Options ] -> [ Simple Search ].
+The search engine can be customized by editing the **Query Template** under [Tools]->[Options]->[Simple Search].
 
 ## Usage
 
